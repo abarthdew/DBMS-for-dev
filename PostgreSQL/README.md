@@ -1,6 +1,8 @@
 # PostgreSQL
 - 개념
   - http://www.gurubee.net/lecture/2914
+  - https://aws.amazon.com/ko/nosql/
+  - https://velog.io/@public_danuel/process-env-on-node-js
 - 설치
   - https://dora-guide.com/postgresql-install/
 - 참조
