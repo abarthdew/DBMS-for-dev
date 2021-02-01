@@ -3,3 +3,11 @@
   - http://www.gurubee.net/lecture/2914
 - 설치
   - https://dora-guide.com/postgresql-install/
+- 참조
+  - `NodeJS Express + PostgreSQL`
+    - https://flaviocopes.com/sequelize/
+    - https://velog.io/@eddie_kim/Sequelize-cli%EC%99%80-PostgreSQL%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-Migration-%EB%B0%8F-Seed%ED%95%98%EA%B8%B0
+    - https://kentakang.com/136
+    - https://www.robinwieruch.de/postgres-express-setup-tutorial
+  - `function`    
+    - https://kwomy.tistory.com/9
