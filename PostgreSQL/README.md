@@ -3,6 +3,12 @@
   - http://www.gurubee.net/lecture/2914
   - https://aws.amazon.com/ko/nosql/
   - https://velog.io/@public_danuel/process-env-on-node-js
+  - 
+  - http://www.gisdeveloper.co.kr/?p=4621
+  - https://sungtae-kim.tistory.com/40
+  - https://blog.naver.com/PostView.nhn?blogId=qbxlvnf11&logNo=221491667554&categoryNo=34&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
+  - https://www.postgresql.kr/
+  - https://db-engines.com/en/ranking
 - 설치
   - https://dora-guide.com/postgresql-install/
 - 참조
