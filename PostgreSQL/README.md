@@ -10,6 +10,8 @@
   - https://db-engines.com/en/ranking
   - https://tjdguqdl.tistory.com/6
   - https://chrisjune-13837.medium.com/db-lock-%EB%9D%BD%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-d908296d0279
+  - https://bangu4.tistory.com/15
+  - https://garimoo.github.io/database/2018/04/16/oracle_db_structure.html
   - https://warpgate3.tistory.com/entry/Spring-Boot-Reactive-Postgresqlr2dbc
   - https://kwomy.tistory.com/6?category=851266
 - 설치
