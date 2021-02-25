@@ -8,6 +8,7 @@
   - https://blog.naver.com/PostView.nhn?blogId=qbxlvnf11&logNo=221491667554&categoryNo=34&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
   - https://www.postgresql.kr/
   - https://db-engines.com/en/ranking
+  - https://tjdguqdl.tistory.com/6
   - https://kwomy.tistory.com/6?category=851266
 - 설치
   - https://dora-guide.com/postgresql-install/
