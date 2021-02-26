@@ -10,9 +10,10 @@
   - http://www.gurubee.net/lecture/2914
   - https://d2.naver.com/helloworld/227936
   - https://rastalion.me/postgresql%EA%B3%BC-mariadb%EC%9D%98-%EC%82%AC%EC%9D%B4%EC%97%90%EC%84%9C%EC%9D%98-%EC%84%A0%ED%83%9D/
-- 반복문
+- 함수 및 쿼리
   - http://www.gisdeveloper.co.kr/?p=4621
   - https://sungtae-kim.tistory.com/40
+  - https://kwomy.tistory.com/9
 - 오라클 파티셔닝
   - https://m.blog.naver.com/PostView.nhn?blogId=whdahek&logNo=220796458477&proxyReferer=https:%2F%2Fwww.google.com%2F
   - https://umbum.dev/969
@@ -28,14 +29,11 @@
 - 설치 및 사용
   - https://dora-guide.com/postgresql-install/
   - https://blog.naver.com/PostView.nhn?blogId=qbxlvnf11&logNo=221491667554&categoryNo=34&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
-- 참조
-  - `NodeJS Express + PostgreSQL`
-    - https://flaviocopes.com/sequelize/
-    - https://velog.io/@eddie_kim/Sequelize-cli%EC%99%80-PostgreSQL%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-Migration-%EB%B0%8F-Seed%ED%95%98%EA%B8%B0
-    - https://kentakang.com/136
-    - https://www.robinwieruch.de/postgres-express-setup-tutorial
-  - `function`    
-    - https://kwomy.tistory.com/9
+- `NodeJS Express + PostgreSQL`
+  - https://flaviocopes.com/sequelize/
+  - https://velog.io/@eddie_kim/Sequelize-cli%EC%99%80-PostgreSQL%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-Migration-%EB%B0%8F-Seed%ED%95%98%EA%B8%B0
+  - https://kentakang.com/136
+  - https://www.robinwieruch.de/postgres-express-setup-tutorial
 - 그외
   - https://aws.amazon.com/ko/nosql/
   - https://velog.io/@public_danuel/process-env-on-node-js
