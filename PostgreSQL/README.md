@@ -2,21 +2,10 @@
 - DB
   - https://serverstudy.tistory.com/73
   - https://chrisjune-13837.medium.com/db-lock-%EB%9D%BD%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-d908296d0279
-- 오라클
-  - https://ssmsig.tistory.com/37
-  - https://bangu4.tistory.com/15
-  - https://garimoo.github.io/database/2018/04/16/oracle_db_structure.html
 - 포스트그레스큐엘
   - http://www.gurubee.net/lecture/2914
   - https://d2.naver.com/helloworld/227936
   - https://rastalion.me/postgresql%EA%B3%BC-mariadb%EC%9D%98-%EC%82%AC%EC%9D%B4%EC%97%90%EC%84%9C%EC%9D%98-%EC%84%A0%ED%83%9D/
-- 함수 및 쿼리
-  - http://www.gisdeveloper.co.kr/?p=4621
-  - https://sungtae-kim.tistory.com/40
-  - https://kwomy.tistory.com/9
-- 오라클 파티셔닝
-  - https://m.blog.naver.com/PostView.nhn?blogId=whdahek&logNo=220796458477&proxyReferer=https:%2F%2Fwww.google.com%2F
-  - https://umbum.dev/969
 - 오라클 & 포스트그레스큐엘 차이
   - https://kwomy.tistory.com/6?category=851266
   - https://db-engines.com/en/system/Oracle%3BPostgreSQL
@@ -24,6 +13,17 @@
   - https://velog.io/@jisoo1170/Oracle-MySQL-PostgreSQL-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80
   - https://stricky.tistory.com/367
   - https://tjdguqdl.tistory.com/6
+- 오라클
+  - https://ssmsig.tistory.com/37
+  - https://bangu4.tistory.com/15
+  - https://garimoo.github.io/database/2018/04/16/oracle_db_structure.html
+- 오라클 파티셔닝
+  - https://m.blog.naver.com/PostView.nhn?blogId=whdahek&logNo=220796458477&proxyReferer=https:%2F%2Fwww.google.com%2F
+  - https://umbum.dev/969
+- 함수 및 쿼리
+  - http://www.gisdeveloper.co.kr/?p=4621
+  - https://sungtae-kim.tistory.com/40
+  - https://kwomy.tistory.com/9
 - WEBFLUX
   - https://warpgate3.tistory.com/entry/Spring-Boot-Reactive-Postgresqlr2dbc
 - 설치 및 사용
