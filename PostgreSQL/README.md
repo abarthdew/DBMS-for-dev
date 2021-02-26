@@ -14,6 +14,16 @@
   - https://garimoo.github.io/database/2018/04/16/oracle_db_structure.html
   - https://warpgate3.tistory.com/entry/Spring-Boot-Reactive-Postgresqlr2dbc
   - https://kwomy.tistory.com/6?category=851266
+- 포스트그레스큐엘
+  - https://d2.naver.com/helloworld/227936
+- 오라클 파티셔닝
+  - https://m.blog.naver.com/PostView.nhn?blogId=whdahek&logNo=220796458477&proxyReferer=https:%2F%2Fwww.google.com%2F
+  - https://umbum.dev/969
+- 오라클 & 포스트그레스큐엘 차이
+  - https://db-engines.com/en/system/Oracle%3BPostgreSQL
+  - https://ktdsoss.tistory.com/428
+  - https://velog.io/@jisoo1170/Oracle-MySQL-PostgreSQL-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80
+  - https://stricky.tistory.com/367
 - 설치
   - https://dora-guide.com/postgresql-install/
 - 참조
