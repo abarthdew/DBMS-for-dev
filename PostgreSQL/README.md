@@ -2,6 +2,9 @@
 - DB
   - https://serverstudy.tistory.com/73
   - https://chrisjune-13837.medium.com/db-lock-%EB%9D%BD%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-d908296d0279
+  - https://nclee.tistory.com/entry/Oracle-DeadLock
+  - https://myjamong.tistory.com/181
+  - https://estenpark.tistory.com/341
 - 포스트그레스큐엘
   - http://www.gurubee.net/lecture/2914
   - https://d2.naver.com/helloworld/227936
