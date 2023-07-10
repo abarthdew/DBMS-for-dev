@@ -18,7 +18,7 @@
 - 
 ## 설치
 - https://www.postgresql.org/download/windows/
-- 
+
 ## 환경변수 설정
 - 제어판 > 시스템 > 고급 시스템 설정
 > ![ex_screen](images/psql.png)
