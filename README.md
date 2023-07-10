@@ -1,4 +1,1 @@
 # DBMS
-
-### PostgreSQL
-### SQL-server
