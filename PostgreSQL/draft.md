@@ -1,35 +1,31 @@
 # PostgreSQL 핵심정리
+
 ## 목차
 [1. 특징](#특징)
-
 [2. 설치](#설치)
-
 [3. 환경변수 설정](#환경변수-설정)
-
 [4. 접속](#접속)
-
 [5. CRUD](#CRUD)
-
 [6. 자료형](#자료형)
-
 [7. 함수](#함수)
-
 [8. 프로시저](#프로시저)
-
 [9. 트리거](#트리거)
-
 [10. 시연](#시연)
+
 ## 특징
 - db blocking
 - webflux(reactive)
+- 
 ## 설치
 - https://www.postgresql.org/download/windows/
+- 
 ## 환경변수 설정
 - 제어판 > 시스템 > 고급 시스템 설정
 > ![ex_screen](images/psql.png)
 ```
 $ psql --version // 버전 조회
 ```
+
 ## 접속
 1. SQL Shell(psql)
 2. 명령 프롬프트
@@ -38,6 +34,7 @@ $ psql -U (postgre[name]) // 접속
 ```
 3. pgAdmin4(전용 GUI 툴)
 > ![ex_screen](images/psql4.png)
+> 
 ## 구조
 
 ## CRUD
@@ -104,14 +101,7 @@ $ psql -U (postgre[name]) // 접속
       - 프라이머리 키 데이터 타입으로 주로 이용
     </td>
   </tr>
-  <tr><td>화폐형(Monetary Types)</td></tr>
-  <tr><td>문자형(Character Types)</td></tr>
-  <tr><td>날짜 및 시간(Date & Time)</td></tr>
-  <tr><td>불리언형(Boolean Types)</td></tr>
-  <tr><td>배열형(Array Types)</td></tr>
-  <tr><td>제이슨형(Json Types)</td></tr>
 </table>
-
 
 ## 함수
 ## 프로시저
