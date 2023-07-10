@@ -1,4 +1,4 @@
-# NoSQL
+# DBMS
 
 ### find pid
 ```angular2html
