@@ -132,7 +132,7 @@ tags: [DB, PostgreSQL]
 > ) PARTITION BY RANGE(dt);
 > 					-- [RANGE | LIST | HASH]
 > ```
-> ![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/12.png){: width="150" style="margin-bottom: 40px; margin-right: 10px;" .left}   
+> ![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/12.png){: width="150" style="margin-bottom: 40px; margin-right: 10px;" .left}   
 > - `PARTITION BY RANGE(id)` : id 범위를 기준으로 한 RANGE  Partition 
 >    partition_bound_spec 설정 예 : FOR VALUES FROM (1) to (1000)
 > - `PARTITION BY LIST(class)` : class column을 기준으로 한 LIST Partition 
@@ -158,7 +158,7 @@ tags: [DB, PostgreSQL]
 > 	DEFAULT;
 > ```
 >
-> ![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/13.png){: width="400"}   
+> ![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/13.png){: width="400"}   
 > 
 > - (3) 데이터 삽입
 > 
@@ -219,7 +219,7 @@ tags: [DB, PostgreSQL]
 
 - 제어판 > 시스템 > 고급 시스템 설정 > 환경 변수 > 시스템변수 > path편집
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/14.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/14.png)
 
 # 5. 접속
 
@@ -232,7 +232,7 @@ tags: [DB, PostgreSQL]
 
 3. pgAdmin4(전용 GUI 툴)
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/15.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/15.png)
 
 # 6. CRUD
 
@@ -247,13 +247,13 @@ tags: [DB, PostgreSQL]
 
 ### 1) CREATE | `CREATE TABLE [tb_name] ([컬럼명][자료형],...);`
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/16.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/16.png)
 
 1. SQL shell에 차례대로 입력 *구문 오류가 있을 시, 오류 문구가 출력됨
 2. \e 명령어 입력
 3. 외부 편집기로 쿼리 수정 후 저장
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/17.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/17.png)
 
 ```jsx
 -- 기존 테이블 복사 후 생성(칼럼, 레코드 데이터 복사됨)
@@ -285,7 +285,7 @@ id |  name  |                             attributes
 
 ### 2) SELECT | `SELECT * FROM "[schema_name]".[tb_name];`
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/18.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/18.png)
 
 ---
 
@@ -300,13 +300,13 @@ UPDATE [tb_name] SET [column] = [values] WHERE [condition] [RETURNING *];
 -- RETURNING * : 수정한 내용 바로 조회
 ```
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/19.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/19.png)
 
 ---
 
 ### 4) DELETE | `DROP TABLE [tb_name]`
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/20.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/20.png)
 
 # 7. 자료형
 
@@ -375,7 +375,7 @@ INSERT INTO info3 VALUES (001, 'POST', Array[01011111111, 01022222222]);
 INSERT INTO info3 VALUES (002, 'POST2', '{01011111111, 01022222222}');
 ```
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/21.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/21.png)
 
 🔰 JSON형 : `JOSN` / `JSONB`
 
@@ -401,7 +401,7 @@ INSERT INTO order3 VALUES
   (003, '{"custormer":"333", "books":{"id":"c", "name":"cBook"}}');
 ```
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/22.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/22.png)
 
 # 8. 활용
 
@@ -888,7 +888,7 @@ FROM order3
 
 ## 2) 조인
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/23.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/23.png)
 
 ### INNER JOIN
 
@@ -981,11 +981,11 @@ QUERY PLAN
 
 🔰 PgAdmin
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/24.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/24.png)
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/25.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/25.png)
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/26.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/26.png)
 
 ### LEFT OUTER JOIN
 
@@ -1123,7 +1123,7 @@ dtspcoid |  datname  |  oid  | spcoid |   spcname    | spcowner
 
 ### B-Tree 인덱스
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/27.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/27.png)
 
 - 자식 노드의 최대 숫자가 2보다 큰 트리 구조.
 - 각 노드에 있는 키들은 전부 정렬되어 있으며, 부모-자식 노드가 연결되어 있다.
@@ -1422,7 +1422,7 @@ SELECT * FROM sub_number; // 3
 
 # 10. 질문과 보충사항
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/28.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/28.png)
 
 > 💡 감사합니다. 질문과 보충했으면 좋을 것 같은 사항들을 말씀해주세요.
 
@@ -1539,7 +1539,7 @@ SELECT * FROM sub_number; // 3
     - [CLOB](https://www.cubrid.com/tutorial/3794112) : 사이즈가 큰 데이터를 외부 파일로 저장하기 위한 데이터 타입(오라클)
     - [조인](https://felixgrayson.wordpress.com/2015/06/18/left-join-right-join-inner-join-and-outer-join/)
     
-    ![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/29.png)
+    ![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/29.png)
     
     - [GIN인덱스](https://medium.com/vuno-sw-dev/postgresql-gin-%EC%9D%B8%EB%8D%B1%EC%8A%A4%EB%A5%BC-%ED%86%B5%ED%95%9C-like-%EA%B2%80%EC%83%89-%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0-3c6b05c7e75f)
     - [to_tsvector](https://daesuni.github.io/postgres-fulltext-search/)

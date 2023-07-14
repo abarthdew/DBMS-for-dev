@@ -9,7 +9,7 @@ tags: [DB, PostgreSQL]
 
 ## 1) 포스트그레스큐엘이란?
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/1.png){: width="190" style="margin-right: 40px;" .left}   
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/1.png){: width="190" style="margin-right: 40px;" .left}   
 >    <br>
 > 🛢 Oracle<br>
 > 🗄 MS SQL Server<br>
@@ -20,7 +20,7 @@ tags: [DB, PostgreSQL]
 
 ## 2) 역사
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/2.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/2.png)
 
 - 1977년 미국 UC 버클리 대학
 - `Ingres(INteractive Graphics REtrieval System)DB`란 이름으로 개발 프로젝트 시작
@@ -70,9 +70,9 @@ tags: [DB, PostgreSQL]
 
 ### DATABASE 구조
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/3.jpg)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/3.jpg)
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/4.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/4.png)
 
 ### 스키마
 
@@ -171,7 +171,7 @@ REVOKE privilege [,...]
 > - `object` : 적용될 수 있는 객체 : table, view, sequence, index
 > - `PUBLIC` : 모든 유저를 승인/취소
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/5.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/5.png)
 
 > 💡 다른 계정의 데이터베이스 테이블에 접근했을 때 아래와 같은 오류 출력   
 > ```shell
@@ -185,7 +185,7 @@ REVOKE privilege [,...]
 
 ### 아키텍처
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/6.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/6.png)
 
 ### < Postmaster Daemon >
 - `postmaster` : PostgreSQL 기동할 때 가장 먼저 시작되는 프로세스. 초기 복구 작업, 메모리 초기화, Background 프로세스 기동 작업 수행. 데몬 프로세스로 Client 프로세스의 접속 요청을 받아 Backend 프로세스를 생성.
@@ -211,7 +211,7 @@ REVOKE privilege [,...]
 
 ### 아키텍처 단순화
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/7.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/7.png)
 
 > 💡 ① `연결 초기화` : 클라이언트에서 인터페이스 라이브러리(JDBC, ODBC 등)을 통해 서버와의 연결 요청<br>
 > 👉 ② `서버 생성` : Postmaster 프로세스가 서버와의 연결을 중계<br>
@@ -331,7 +331,7 @@ REVOKE privilege [,...]
 > ```
 > 
 > 해당 데이터베이스에 테이블을 생성하면 Tablespace의 저장소에 데이터베이스 객체를 나타내는 파일들이 저장됨<br>
-> ![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/8.png)
+> ![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/8.png)
 > ```jsx
 > SELECT 
 >   pg_database.dattablespace AS dtspcoid, datname, pg_database.oid,
@@ -534,7 +534,7 @@ REVOKE privilege [,...]
 > 
 > # 2. 스트리밍 복제
 > 💡 **Streaming-Replication** : Master 에서 생성된 WAL log를 Slave DB로 실시간성으로 전달하여 정합성을 일치시키는 replication 방법<br>
-> ![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/9.png)
+> ![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/9.png)
 > 
 > # 3. PostgreSQL Replication에 대한 보다 더 자세한 글
 > - 테스트 환경 : CentOS 7.5 , PostgreSQL 10.4 버전
@@ -825,7 +825,7 @@ REVOKE privilege [,...]
 > ) INHERITS (cities);
 > ```
 > 
-> ![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/10.png)
+> ![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/10.png)
 > 
 > ```jsx
 > // 자식테이블 capitals를 상속받는 또 다른 테이블 생성
@@ -834,7 +834,7 @@ REVOKE privilege [,...]
 > ) INHERITS (capitals);
 > ```
 > 
-> ![Untitled](https://raw.githubusercontent.com/abarthdew/DBMS-for-dev/main/PostgreSQL/images/11.png)
+> ![Untitled](https://raw.githubusercontent.com/abarthdew/dbms-for-dev/main/PostgreSQL/images/11.png)
 > 
 > ```jsx
 > -- 부모 테이블 삭제 시
