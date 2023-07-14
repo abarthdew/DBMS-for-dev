@@ -1,1 +1,1 @@
-# DBMS-for-dev
+# dbms-for-dev
